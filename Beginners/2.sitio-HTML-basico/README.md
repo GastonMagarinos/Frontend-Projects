@@ -2,9 +2,9 @@
 
 Decidi hacerle unas modificaciones solo para que se viera como la imagen de prueba
 
-##Prueba sacada de roadmap.sh
+## Prueba sacada de roadmap.sh
 
-![]("https://icon-icons.com/es/authors/961-jimeng")
+![roadmap.sh]("https://icon-icons.com/es/authors/961-jimeng")
 
 Esta pagina contiene:
 
