@@ -1,27 +1,16 @@
 <!doctype html>
 <html>
-    <head>
+    <head lang="en-US">
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="this is a website,for understanding HTML basics"
+        />
+        <meta name="author" content="Gaston Magarinos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>web site</title>
     </head>
     <body style="margin: 0; padding: 0">
-        <header
-            style="
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-            "
-        >
-            <h2>your name</h2>
-            <ul style="display: flex; gap: 25px; list-style: none">
-                <li>Home</li>
-                <span>/</span>
-                <li>Projects</li>
-                <span>/</span>
-                <li>Articles</li>
-                <span>/</span>
-                <li>Contact</li>
-            </ul>
-        </header>
         <main
             style="
                 display: flex;
@@ -33,7 +22,39 @@
                 padding: auto;
             "
         >
+            <header
+                style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 100px;
+                "
+            >
+                <div style="display: flex; align-items: center; gap: 5px">
+                    <img
+                        src="./Imagenes/user.png"
+                        style="
+                            height: 35px;
+                            width: 35px;
+                            background-color: lightsteelblue;
+                            border-radius: 100%;
+                            padding: 10px;
+                        "
+                    />
+                    <h2>your name</h2>
+                </div>
+                <ul style="display: flex; gap: 10px; list-style: none">
+                    <li id="#home">Home</li>
+                    <span>/</span>
+                    <li id="#projects">Projects</li>
+                    <span>/</span>
+                    <li id="#articles">Articles</li>
+                    <span>/</span>
+                    <li id="#contact">Contact</li>
+                </ul>
+            </header>
             <section
+                id="home"
                 style="
                     display: flex;
                     flex-direction: column;
@@ -45,7 +66,7 @@
                 <h1>Frontend Developer</h1>
                 <p>html only with proper layout,no styling</p>
             </section>
-            <section>
+            <section id="projects">
                 <table border="2" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                         <td valign="top" width="30%">
@@ -171,6 +192,7 @@
                 </div>
             </section>
             <footer
+                id="contact"
                 style="display: flex; justify-content: center; margin: 70px"
             >
                 <p>&copy; all rights reserved 2026</p>
