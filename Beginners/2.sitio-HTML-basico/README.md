@@ -4,7 +4,7 @@ Decidi hacerle unas modificaciones solo para que se viera como la imagen de prue
 
 ## Prueba sacada de roadmap.sh
 
-![roadmap.sh]("https://icon-icons.com/es/authors/961-jimeng")
+![roadmap.sh]("https://roadmap.sh/projects/basic-html-website")
 
 Esta pagina contiene:
 
